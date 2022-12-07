@@ -1,0 +1,76 @@
+export const projects = [
+  {
+    title: 'Detection of Harmful Objects in X-Ray Baggage Imagery',
+    description: "Implemented SSD model with a RestNet50 pre-trained backbone network for detection of harmful objects in X-Ray Baggage imagery. The model was able to achieve mean average precision of 82%.",
+      image: '/images/p1.png',
+      tags: ['Python', 'Tensorflow', 'SSD', 'Pytorch'],
+    source: 'https://github.com/Har-Pan/Harmful-Object-Detection-In-X-ray-Baggage-Imagery',
+    visit: 'https://github.com/Har-Pan/Harmful-Object-Detection-In-X-ray-Baggage-Imagery',
+    id: 0,
+  },
+  {
+    title: 'Web 3.0 Blockchain Application ',
+    description:"In this project, we design our application using React.js and connect it to the blockchain and pair it to our Ethereum wallet using MetaMask. Also, I wrote Smart Contracts on the Ethereum network using the Solidity programming language which allow users to send transcations.",
+    image: '/images/p2.png',
+    tags: ['React', 'JavaScript', 'Solidity', 'Metamask'],
+    source: 'https://github.com/Har-Pan',
+    visit: 'https://github.com/Har-Pan',
+    id: 1,
+  },
+  {
+    title: 'AR Molecules Mobile Application',
+    description: "The application was designed to help students learn and visualize complex 3D molecules and understand their chemical reactions. The user can interact with the 3D model, including zoom in and out rotate, change to mutated form, and read text description of the 3D molecules.",
+      image: '/images/p3.png',
+      tags: ['Unity', 'C#'],
+    source: 'https://google.com',
+    visit: 'https://google.com',
+    id: 2,
+  },
+  {
+    title: 'Visualization of Global Wind and Weather',
+    description: "The animation depicts real-time wind speed and direction at selected heights above Earth's surface, ocean surface currents, and ocean surface temperatures and anomalies.",
+      image: '/images/p5.png',
+      tags: ['Javascript', 'CSS3', "HTML5", "d3", "Node"],
+    source: 'https://github.com/Har-Pan/Visualization-of-Global-Wind-and-Weather',
+    visit: 'https://earth.nullschool.net/',
+    id: 3,
+  },
+  {
+    title: 'Smart Stick for Visually Impaired People',
+    description: "In this study we build a Smart Stick for visually impaired people which is a major enhancement on the default stick which is available in the market right now. We designed a Smart Stick which can be easily be afforded as well as usable by the visually impaired people. The design architecture uses the Arduino processor along with Ultrasonic Sensors which will be responding with the help of a RF transmitter and receiver. Further it can be also used to respond to the sensitivity of light.",
+    image: '/images/p4.png',
+    tags: ['C++', 'Arduino', 'Sensors'],
+    source: 'https://www.irjet.net/archives/V7/i6/IRJET-V7I6920.pdf',
+    visit: 'https://www.irjet.net/archives/V7/i6/IRJET-V7I6920.pdf',
+    id: 4,
+  },
+  {
+    title: 'Dengue Outbreak Prediction Model Using Machine Learning Algorithm',
+    description: "Dengue is one of the major public health problems in India. Early prediction of the disease outbreak would significantly help the health officials to deal with the outbreak. The given model can also be used for other predictions like malaria and corona virus by changing the training data. This paper primarily focuses on dengue outbreak prediction by using machine learning algorithm such as Support Vector Machines using libraries like Numpy and Pandas. ",
+    image: '/images/p6.png',
+    tags: ['Python', 'Numpy', 'Pandas', 'SVM'],
+    source: 'https://www.ijresm.com/articles/dengue-outbreak-prediction-model-using-machine-learning-algorithm/',
+    visit: 'https://drive.google.com/file/d/1h5sm_FXpio0tbjb0syW01nWN19hOL2fh/view?usp=sharing',
+    id: 4,
+  },
+];
+
+export const TimeLineData = [
+  { year: 2018, text: 'Data Science Intern, National Informatics Centre, MeitY (May to August)', },
+  { year: 2019, text: 'Research Assitant, VIT Vellore', },
+  { year: 2020, text: "Software Engineer Intern, Shell (October to July 2021)", },
+  { year: 2021, text: 'Graduate Research Assistant, AltaML Inc.', },
+  { year: 2022, text: 'Machine Learning Research Developer, AERIUM Analytics (January to April)', },
+  { year: 2022, text: 'Software Developer Intern,IBM Hyper Blue (May to present)', },
+];
+
+export const EducationLineData = [
+  { year: "2016", text: 'Started my journey', },
+  { year: "2017", text: 'Worked as a freelance developer', },
+  { year: "2018", text: 'Founded JavaScript Mastery', },
+  { year: "2019", text: 'Shared my projects with the world', },
+  { year: "2020", text: 'Started my own platform', },
+  { year: "2021", text: 'Started my own platform', },
+  { year: "2022", text: 'Started my own platform', },
+  { year: "2023", text: 'Started my own platform', },
+];
