@@ -4,6 +4,8 @@
   "homepage": "https://Har-Pan.github.io/Portfolio_publish"
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
++   "deploy": "npm -d build"
     "dev": "next dev",
     "build": "next build && next export",
     "start": "next start"
